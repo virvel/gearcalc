@@ -5,60 +5,7 @@
 	<title>
 		Multispeed gear calculator
 	</title>
-	<style type="text/css">
-	body {
-		background-color: #fff;
-		font-family: Helvetica;
-		font-size: 10pt;
-		color: #111;
-	}
-
-	label {
-		width: 175px;
-		float: left;
-		text-align: right;
-		margin-right: 1em;
-	}
-
-	input {
-		font-family: Helvetica;
-		font-size: 10pt;
-	}
-
-	input[type=text]{
-		background-color: #ffffff;
-		border-top: 2px solid #ccc;
-		border-left: 2px solid #ccc;
-		border-right: 2px solid #fffeff;
-		border-bottom: 2px solid #fffeff;
-		padding: 2px;
-		border-radius: 5px;
-	}
-
-	table {
-		border-spacing: 0;
-		float: left;
-	}
-	td {
-		border-left: 1px solid #ccc;
-		border-top: 1px solid #ccc;
-		padding: 5px;
-	}
-	#holder {
-		float: left;
-		width: 500px;
-		height: 550px;
-	}
-	svg {
-	}
-
-	footer {
-		display: block;
-		position: absolute;
-		bottom: 10px;
-		left: 10px;
-	}
-	</style>
+	<link rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="raphael-min.js"></script>
 	<script type="text/javascript" src="g.raphael-min.js"></script>
 	<script type="text/javascript" src="g.bar-min.js"></script>
@@ -197,6 +144,5 @@
 
 	</script>
 	<div id="holder"></div>
-	<footer>Graphs made using <a href="http://g.raphaeljs.com/">g.Raphaël.js</a></footer>
 </body>
 </html>
