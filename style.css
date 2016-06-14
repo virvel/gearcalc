@@ -1,0 +1,49 @@
+	body {
+		background-color: #31353D;
+		font-family: Helvetica;
+		font-size: 10pt;
+		color: #EEEFF7;
+	}
+
+	label {
+		width: 175px;
+		float: left;
+		text-align: right;
+		margin-right: 1em;
+	}
+
+	input {
+		font-family: Helvetica;
+		font-size: 10pt;
+	}
+
+	input[type=text]{
+		background-color: #1C1D21;
+		color: #EEEFF7;
+		padding: 5px 10px;
+		border: none;
+	}
+
+	table {
+		border-spacing: 0;
+		float: left;
+	}
+	td {
+		border-left: 1px solid #1C1D21;
+		border-top: 1px solid #1C1D21;
+		padding: 10px;
+	}
+	#holder {
+		float: left;
+		width: 500px;
+		height: 550px;
+	}
+	svg {
+	}
+
+	footer {
+		display: block;
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+	}
